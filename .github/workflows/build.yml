@@ -6,3 +6,14 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       mode: '["build"]'
+      kmonad_os: '[
+        "default",
+        "win"
+      ]'
+      alphas: '[
+        "default",
+        "qwertz"
+      ]'
+      clipboard: '[
+        "default"
+      ]'
